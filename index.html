@@ -7,32 +7,24 @@
 <meta name="author" content="Tânia Raposo">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-<style type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@0;1&display=swap" rel="stylesheet">
+	
+<style>
 /* the `@font-face` rules assign specific font files to be used whenever a certain font-family/weight/style combo is called. The source files are listed in order of preference, so if a browser doesn't recognize WOFF2 files, it will move on to the normal WOFF files. */
 
-@font-face {
-	src: url('Fonts/Messer/Messer-Light.woff2') format('woff2'),
-		url('Fonts/Messer/Messer-Light.woff') format('woff');
-	font-family: 'Messer';
-	font-weight: 200;
-	font-style: normal;
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500&display=swap');
+body {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
+font-style: normal;
+	
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
+font-style: italic;
 }
 
-@font-face {
-	src: url('Fonts/Zangezi/Zangezi08-LightItalic.woff2') format('woff2'),
-		url('Fonts/Zangezi/Zangezi08-LightItalic.woff') format('woff');
-	font-family: 'Zangezi';
-	font-weight: 200;
-	font-style: italic;
-}
-
-@font-face {
-	src: url('Fonts/Zangezi/Zangezi08-SemiLight.woff2') format('woff2'),
-		url('Fonts/Zangezi/Zangezi08-SemiLight.woff') format('woff');
-	font-family: 'Zangezi';
-	font-weight: 200;
-	font-style: normal;
-}
 
 /* The part below basically resets most of the browser's default spacing and font sizing, with most things just inheriting settings from their parent/container elements. The asterisk is a shortcut for targeting all elements instead of listing them individually. */
 * {
@@ -55,8 +47,8 @@
 
 /* The next part re-establishes the base/default font family, weight, etc for the page. Because of the `inherit` stuff above, most elements will just inherit these settings unless you override them with styles below. */
 :root {
-	font-family: 'Messer', 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
-	font-weight: 200;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 400;
 	font-size: 20px;
 	line-height: 1;
 	text-align: left;
@@ -74,18 +66,18 @@ body {
 	margin-top: 0;
 }
 
-a {text-decoration: none; font-family: 'Zangezi';
-	font-weight: 200;
+a {text-decoration: none; font-family: 'Source Serif Pro';
+	font-weight: 400;
 	font-style: italic;}
 
 a:link {color: #FFF;}
-a:visited {font-family: 'Zangezi';
-	font-weight: 200;
+a:visited {font-family: 'Source Serif Pro';
+	font-weight: 400;
 	font-style: italic;
 	color: #FFF;}
 a:active {color: #FFF;}
-a:hover {font-family: 'Zangezi';
-	font-weight: 200;
+a:hover {font-family: 'Source Serif Pro';
+	font-weight: 400;
 	font-style: italic;
 	color: rgb(0, 60, 255);}
 
@@ -131,7 +123,7 @@ strong {font-weight: 700;}
 </head>
 
 <p> Tânia Raposo is a designer, teacher and researcher. Currently living in France working on a PhD with the <a href="https://edesta.univ-paris8.fr" target="_blank">University of Paris VIII</a> in collaboration with the <a href="https://anrt-nancy.fr/en" target="_blank">ANRT</a>, and teaching typography at the <a href="https://www.kabk.nl/en/programmes/master/type-and-media" target="_blank">Type and Media Master</a> and at <a href="https://ensad-nancy.eu" target="_blank">ENSAD Nancy</a>. </p>
-	<p> She worked as the Educational Program Coordinator and curatorial assistant at <a href="http://www.letterformarchive.org/" target="_blank">Letterform Archive</a>, she taught at the <a href="https://www.cca.edu/" target="_blank"> California College of the Arts</a>, <a href="https://www.ccsf.edu/" target="_blank"> San Francisco City College</a> and <a href="http://coopertype.org/" target="_blank"> Type@Cooper West program</a>. Previously she worked at the graphic design studios <a href="http://www.designbyatlas.com/" target="_blank">Atlas</a> in Mallorca and <a href="https://itemzero.com/" target="_blank">itemzero</a> and the type foundry <a href="https://felicianotype.com" target="_blank">Feliciano Type</a>in Portugal.
+	<p> She worked as the Educational Program Coordinator and curatorial assistant at <a href="http://www.letterformarchive.org/" target="_blank">Letterform Archive</a>, she taught at the <a href="https://www.cca.edu/" target="_blank"> California College of the Arts</a>, <a href="https://www.ccsf.edu/" target="_blank"> San Francisco City College</a> and <a href="http://coopertype.org/" target="_blank"> Type@Cooper West program</a>. Previously she worked at the graphic design studios <a href="http://www.designbyatlas.com/" target="_blank">Atlas</a> in Mallorca and <a href="https://itemzero.com/" target="_blank">itemzero</a> and the type foundry <a href="https://felicianotype.com" target="_blank">Feliciano Type</a> in Portugal.
 	</p>
 	<p> You can find her on <a href="https://twitter.com/ainat_/" target="_blank">Twitter</a> and <a href="https://www.instagram.com/ainat_/" target="_blank">Instagram</a>, where she <a href="https://www.instagram.com/ainat_/channel/" target="_blank">she shares her books and analogue photography</a>.
 	You can discover her <a href="https://www.instagram.com/guide.books/" target="_blank">Guide Book</a> collection. Read some of her articles on <a href="http://www.alphabettes.org/author/tania/" target="_blank">Alphabettes</a>.
